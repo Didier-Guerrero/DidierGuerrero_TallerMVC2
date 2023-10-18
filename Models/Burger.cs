@@ -8,7 +8,7 @@ namespace DidierGuerrero_TallerMVC2.Models
         [Required]
         public string? Name { get; set; }
         public bool WithCheese { get; set; }
-        [Range(0.01, 9999.99)]
+        [Range(0.01, 99.99)]
         public decimal Precio { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using DidierGuerrero_TallerMVC2.Models;
 using Microsoft.AspNetCore.Mvc;
+using NuGet.Protocol;
 using System.Diagnostics;
 
 namespace DidierGuerrero_TallerMVC2.Controllers
@@ -17,6 +18,8 @@ namespace DidierGuerrero_TallerMVC2.Controllers
         {
             return View();
         }
+
+   
 
         public IActionResult Privacy()
         {
