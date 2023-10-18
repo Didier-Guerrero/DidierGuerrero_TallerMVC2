@@ -15,5 +15,6 @@ namespace DidierGuerrero_TallerMVC2.Data
         }
 
         public DbSet<DidierGuerrero_TallerMVC2.Models.Burger> Burger { get; set; } = default!;
+        public DbSet<DidierGuerrero_TallerMVC2.Models.Promo> Promo { get; set; }
     }
 }
